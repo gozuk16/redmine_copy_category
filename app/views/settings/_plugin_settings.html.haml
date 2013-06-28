@@ -1,0 +1,6 @@
+- copy_category_string_fields = IssueCustomField.find :all
+- copy_category_select_options = '<option value=""> </option>' << options_from_collection_for_select(copy_category_string_fields, :id, :name, @settings['copy_category'].to_i)
+%h2= l(:label_plugin_settings)
+%p
+  %label= l(:label_setting_copy_category)
+  = select_tag 'settings[copy_category]', copy_category_select_options.html_safe

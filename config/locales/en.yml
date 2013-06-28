@@ -1,0 +1,6 @@
+# English strings go here for Rails i18n
+en:
+  redmine_copy_category: "Redmine copy category"
+
+  label_plugin_settings: "Copy category settings(custom_fields)"
+  label_setting_copy_category: "copy category"
