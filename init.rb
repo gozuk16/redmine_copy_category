@@ -11,7 +11,7 @@ Redmine::Plugin.register :redmine_copy_category do
   author 'GOZU Kenichiro'
   description 'チケットのカテゴリを設定されたカスタムフィールドにコピーして横断的に検索可能にします。'
   version '0.0.2'
-  url 'https://github.com/gozuk16/redmine_category_copy'
+  url 'https://github.com/gozuk16/redmine_copy_category'
   author_url 'https://github.com/gozuk16'
 
   requires_redmine :version_or_higher => '2.2.0'
